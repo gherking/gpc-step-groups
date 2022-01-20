@@ -15,7 +15,7 @@ describe("StepGroups", () => {
         base = await loadTestFeatureFile("input.feature");
     });
 
-    test("should not do anything", async () => {
+    test("should change recurring keywords", async () => {
         const expected = await loadTestFeatureFile("expected.feature");
         const actual = process(base, new StepGroups());
 
