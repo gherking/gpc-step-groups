@@ -1,10 +1,10 @@
 # gpc-step-groups
 
-![Downloads](https://img.shields.io/npm/dw/gpc-template?style=flat-square)
-![Version@npm](https://img.shields.io/npm/v/gpc-template?label=version%40npm&style=flat-square)
-![Version@git](https://img.shields.io/github/package-json/v/gherking/gpc-template/master?label=version%40git&style=flat-square)
-![CI](https://img.shields.io/github/workflow/status/gherking/gpc-template/CI/master?label=ci&style=flat-square)
-![Docs](https://img.shields.io/github/workflow/status/gherking/gpc-template/Docs/master?label=docs&style=flat-square)
+![Downloads](https://img.shields.io/npm/dw/step-groups?style=flat-square)
+![Version@npm](https://img.shields.io/npm/v/step-groups?label=version%40npm&style=flat-square)
+![Version@git](https://img.shields.io/github/package-json/v/gherking/gpc-step-groups/master?label=version%40git&style=flat-square)
+![CI](https://img.shields.io/github/workflow/status/gherking/gpc-step-groups/CI/master?label=ci&style=flat-square)
+![Docs](https://img.shields.io/github/workflow/status/gherking/gpc-step-groups/Docs/master?label=docs&style=flat-square)
 
 The StepGroups precompiler is responsible for correcting the gherkin keywords of steps to make the tests more readable.
 
@@ -34,12 +34,12 @@ And the basic settings link should be visible
 ```javascript
 'use strict';
 const compiler = require('gherking');
-const Template = require('gpc-template');
+const StepGroups = require('step-groups');
 
 let ast = await compiler.load('./features/src/login.feature');
 ast = compiler.process(
     ast,
-    new Template({
+    new StepGroups({
         // config
     })
 );
@@ -51,7 +51,7 @@ await compiler.save('./features/dist/login.feature', ast, {
 ```typescript
 'use strict';
 import {load, process, save} from "gherking";
-import Template = require("gpc-template");
+import Template = require("step-groups");
 
 let ast = await load("./features/src/login.feature");
 ast = process(
@@ -72,4 +72,4 @@ This package uses [debug](https://www.npmjs.com/package/debug) for logging, use 
 DEBUG=gpc:template* gherking ...
 ```
 
-For detailed documentation see the [TypeDocs documentation](https://gherking.github.io/gpc-template/).
+For detailed documentation see the [TypeDocs documentation](https://gherking.github.io/step-groups/).
