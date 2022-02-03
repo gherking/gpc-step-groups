@@ -66,10 +66,10 @@ await save('./features/dist/login.feature', ast, {
 ```
 ## Other
 
-This package uses [debug](https://www.npmjs.com/package/debug) for logging, use `gpc:template` :
+This package uses [debug](https://www.npmjs.com/package/debug) for logging, use `gpc:step-groups` :
 
 ```shell
-DEBUG=gpc:template* gherking ...
+DEBUG=gpc:step-groups* gherking ...
 ```
 
 For detailed documentation see the [TypeDocs documentation](https://gherking.github.io/step-groups/).
