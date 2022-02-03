@@ -1,7 +1,7 @@
 {
   "name": "gpc-step-groups",
   "version": "1.0.0",
-  "description": "Precompiler for Gherking",
+  "description": "The StepGroups precompiler is responsible for correcting the gherkin keywords of steps to make the tests more readable.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
