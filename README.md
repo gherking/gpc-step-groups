@@ -1,7 +1,7 @@
 # gpc-step-groups
 
-![Downloads](https://img.shields.io/npm/dw/step-groups?style=flat-square)
-![Version@npm](https://img.shields.io/npm/v/step-groups?label=version%40npm&style=flat-square)
+![Downloads](https://img.shields.io/npm/dw/gpc-step-groups?style=flat-square)
+![Version@npm](https://img.shields.io/npm/v/gpc-step-groups?label=version%40npm&style=flat-square)
 ![Version@git](https://img.shields.io/github/package-json/v/gherking/gpc-step-groups/master?label=version%40git&style=flat-square)
 ![CI](https://img.shields.io/github/workflow/status/gherking/gpc-step-groups/CI/master?label=ci&style=flat-square)
 ![Docs](https://img.shields.io/github/workflow/status/gherking/gpc-step-groups/Docs/master?label=docs&style=flat-square)
